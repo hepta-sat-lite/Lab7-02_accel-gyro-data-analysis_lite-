@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ファイルの読み込み
-filename = '/Users/nagisasone/Library/CloudStorage/OneDrive-日本大学/広尾データv2/test-mag.txt'  
+filename = ''  #フォルダのパスを入れる
 df = pd.read_csv(filename, header=None, sep=',')
 
 # 列名の設定
