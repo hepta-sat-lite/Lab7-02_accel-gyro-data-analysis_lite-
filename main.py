@@ -10,7 +10,7 @@ df.columns = ['time', 'battery_voltage', 'temperature',
               'accel_x', 'accel_y', 'accel_z', 
               'gyro_x', 'gyro_y', 'gyro_z', 
               'mag_x', 'mag_y', 'mag_z']
-plt.rcParams.update({'font.size': 30})  # ここで一括変更
+plt.rcParams.update({'font.size': 30})  
 # 1つのグラフを作成
 plt.figure(figsize=(15, 10))
 plt.scatter(df['time'], df['battery_voltage'], s=30, color='blue')
